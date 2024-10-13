@@ -1,0 +1,79 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.table-header {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table-row {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-row:hover {
+    background-color: #f1f1f1;
+}
+
+.table-cell {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.button-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-update {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-add {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}

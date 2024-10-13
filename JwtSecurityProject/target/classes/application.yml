@@ -1,0 +1,27 @@
+#spring.application.name=JwtSecurityProject
+#logging.level.org.springframework.security=DEBUG
+
+spring:
+  application:
+    name: JwtSecurityProject
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: ${db_url}
+    password: ${db_password}
+    username: ${db_user}
+
+server:
+  error:
+    include-message: always
+logging:
+  level:
+    org:
+      springframework:
+        security:
+          DEBUG
